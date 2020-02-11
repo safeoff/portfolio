@@ -56,14 +56,15 @@ https://github.com/safeoff/shogi-tactics
 
 ### GUI / パズドラのクローン
 
-パズドラの対戦部分をリバースエンジニアリングしたGUIプログラムです。
+パズドラの対戦部分を再現したGUIプログラムです。  
+実機での動作を観察してリバースエンジニアリングすることで作成しました。
 初めにJavaで作成し、後に、GitHub Pagesで動作させるためにTypeScriptで書き直しました。
 
 #### 使用技術（Java版）：
-GUIツール：Java Swing
+GUIツール：Java Swing  
 #### 使用技術（TypeScript版）：
-GUIツール：canvas
-パッケージ・資源管理：npm / webpack
+GUIツール：canvas  
+パッケージ・資源管理：npm / webpack  
 
 #### Java版の動作サンプル
 Linuxデスクトップ上でjar実行ファイルを動作させたものです。  
